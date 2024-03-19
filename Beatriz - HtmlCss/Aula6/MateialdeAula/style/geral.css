@@ -1,0 +1,74 @@
+@font-face {
+    font-family: gameboy ;
+    src: url(../fontes/early_gameboy/Early\ GameBoy.ttf);
+}
+
+@keyframes mudaCor{
+    0%{
+        margin-left: 100%;
+        color: #eeeeee;
+    } 
+    50%{
+        color: yellow;
+    } 
+    100%{
+        margin-left: 8px;
+        color: rgb(250, 1, 1);
+    }
+  }
+  
+:root{
+    --corPrimaria :#18428f;
+    --corSecundaria : #381f50 ;
+    --branco: #fff;
+    --preto: #000;
+    --fontePrimaria: gameboy;
+    --fonteSecundaria: monospace;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: var(--fonteSecundaria);
+}
+
+#page{
+    width: 100%;
+    height: 100vh;
+    background-color:var(--corSecundaria);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 70%;
+    height: 80%;
+    background-color: #381f50 ;
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+}
+
+#efeito, #formulario{
+    width: 50%;
+    height: 100%;
+}
+
+#efeito{
+    background-image:url(../images/gameboyBanner.jpg);
+    background-size: cover;
+    
+}
+
+#banner{
+    width: 100%;
+    height: 100%;
+    background: rgb(2,0,0);
+    background: linear-gradient(90deg, rgba(2,0,0,0) 0%, rgba(56,31,80,1) 100%);
+}
+
+h3{
+    animation-name: mudaCor;
+    animation-duration: 200s;
+}
