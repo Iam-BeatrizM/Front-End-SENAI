@@ -3,16 +3,16 @@
     src: url(../fontes/early_gameboy/Early\ GameBoy.ttf);
 }
 
-@keyframes mudaCor{
+<!--@keyframes mudaCor{
     0%{
-        margin-left: 100%;
+        margin-left: ;
         color: #eeeeee;
     } 
     50%{
         color: yellow;
     } 
     100%{
-        margin-left: 8px;
+        margin-left: ;
         color: rgb(250, 1, 1);
     }
   }
@@ -69,6 +69,5 @@ main{
 }
 
 h3{
-    animation-name: mudaCor;
-    animation-duration: 200s;
+    
 }
