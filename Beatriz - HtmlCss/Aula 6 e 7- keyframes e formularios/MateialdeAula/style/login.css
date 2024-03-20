@@ -1,0 +1,24 @@
+:root{
+    --corPrimaria :#18428f;
+    --corSecundaria : #381f50 ;
+    --branco: #fff;
+    --preto: #000;
+    --fontePrimaria: gameboy;
+    --fonteSecundaria: monospace;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: var(--fonteSecundaria);
+    
+}
+#page{
+    width: 100%;
+    height: 100vh;
+    background-color:var(--corSecundaria);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
