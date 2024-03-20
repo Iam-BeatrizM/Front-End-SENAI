@@ -3,17 +3,20 @@
     src: url(../fontes/early_gameboy/Early\ GameBoy.ttf);
 }
 
-<!--@keyframes mudaCor{
+@keyframes mudaCor{
     0%{
-        margin-left: ;
-        color: #eeeeee;
+        color:var(--branco);
     } 
+    25%{
+        color: #305394;
+    }
+    
     50%{
-        color: yellow;
+        color: var(--corPrimaria);
     } 
     100%{
-        margin-left: ;
-        color: rgb(250, 1, 1);
+        
+        color: var(--branco);
     }
   }
   
@@ -30,6 +33,7 @@
     margin: 0%;
     padding: 0%;
     font-family: var(--fonteSecundaria);
+    
 }
 
 #page{
@@ -66,8 +70,45 @@ main{
     height: 100%;
     background: rgb(2,0,0);
     background: linear-gradient(90deg, rgba(2,0,0,0) 0%, rgba(56,31,80,1) 100%);
+    
 }
 
-h3{
+h2{
+    color: #fff;
+    margin: 0px 0px;
+    /* animation-name: mudaCor; */
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
     
+}
+
+label{
+    color: #fff;
+}
+
+#formulario form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+input{
+    width: 50%;
+    padding: 5px;
+    border: none;
+    border-bottom: solid var(--corPrimaria) 2px;
+}
+
+button{
+width: 199px;
+padding: 10px;
+background-color: #18428f;
+color: #fff;
+cursor: pointer;
+
+}
+
+a{
+    color: #fff;
 }

@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
+    <!--Bibilioteca-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!--Personal Link-->
     <link rel="stylesheet" href="style/geral.css">
     <link rel="stylesheet" href="style/index.css">
 </head>
@@ -14,12 +17,12 @@
             <div id="efeito">
                  <div id="banner"></div>
             </div>
-            <div id="formulario"></div>
-                <h3> CADASTRO</h3>
-                <form action="#" method="post">
+            <div id="formulario">
+                <h2 class="animate__animated animate__pulse">CADASTRO</h2>
+                <form action="pages/home.html" method="post">
                     <br>
                     <!--Nome-->
-                    <label for="nomeDeusuario">Usuario:</label>
+                    <label for="nomeDeusuario">Usuário:</label>
                     <input required type="text" id="nomeDeusuario">
                     <br>
                     <!--Email-->
@@ -27,18 +30,21 @@
                     <input required type="email" id="emailDoUsuario">
                     <br>
                     <!--Senha-->
-                    <label for="senhaDousuario">Sua senha:</label>
+                    <label for="senhaDousuario">Senha:</label>
                     <input required type="password" id="senhaDoUsuario">
                     <br>
                     <!--Data Nasc-->
                     <label for="dataNasc">Sua data de nascimento:</label>
                     <input type="date" id="nascdoUsuario">
                     <br>
+
                     <button type="submit">CADASTRAR</button> 
                     <br>
                     <button type="reset">RESETAR</button>
+
+                    <a href="pages/login.html">Já tem uma conta? Faça o login</a>
                     
-                    
+                </div>  
                 </form>
 
         </main>
