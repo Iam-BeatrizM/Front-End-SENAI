@@ -73,6 +73,38 @@ input:focus{
     background-color: black;
     color:var(--branco);
     border-radius: 0%;
-    
 
+
+}
+
+table tr th:empty{
+    background-color: transparent;
+    border: none;
+    cursor: auto;
+}
+
+#tabelaProdutos{
+    width: 600px;
+    margin: 30px;
+    border-collapse: collapse;
+}
+
+#apenasScroll{
+    width: 1px;
+    height: 1000px;
+}
+
+header{
+    position: fixed;
+    top: -1px;
+
+}
+
+thead{
+    position: sticky;
+    top: 58px;
+}
+
+main{
+    padding-top: 40px;
 }
