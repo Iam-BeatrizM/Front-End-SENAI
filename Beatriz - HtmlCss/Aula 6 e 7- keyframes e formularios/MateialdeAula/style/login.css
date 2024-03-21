@@ -11,7 +11,6 @@
     margin: 0%;
     padding: 0%;
     font-family: var(--fonteSecundaria);
-    
 }
 #page{
     width: 100%;
@@ -22,3 +21,61 @@
     align-items: center;
 }
 
+main{
+    width: 50%;
+    height: 50%;
+    background-color: #492e61 ;
+    border-radius: 10px;
+    overflow:auto;
+}
+
+#efeito, #login{
+    width: 50%;
+    height: 10%;
+}
+
+/* #efeito{
+    background-image:url(../images/gameboyBanner.jpg);
+    background-size:cover;
+} */
+
+/* #banner{
+    width: 100%;
+    height: 100%;
+    background: rgb(2,0,0);
+    background: linear-gradient(90deg, rgba(2,0,0,0) 0%, rgba(56,31,80,1) 100%);
+
+} */
+
+a{
+    color: #fff;
+}
+
+h2{
+    color: #fff;
+}
+
+label{
+    color: #fff;
+}
+
+#login form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+input{
+    width: 78%;
+    padding: 5px;
+    border: none;
+    border-bottom: solid var(--corPrimaria) 2px;
+}
+
+button{
+    width: 91px;
+padding: 10px;
+background-color: #22478c;
+color: #fff;
+cursor: pointer;
+}
