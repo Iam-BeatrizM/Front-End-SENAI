@@ -1,0 +1,78 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+:root{
+    --corPrimaria: #f7c281;
+    --corSecundaria:#442d02;
+    --corTercearia:#8b7141;
+    --preto:black;
+    --branco:#fff;
+    
+}
+
+h1{
+    color:var(--corSecundaria);
+
+
+}
+
+header, footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: var(--corPrimaria);
+}
+
+#tabelaExcel {
+    width: 400px;
+    margin:30px;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid var(--preto);
+    padding: 5px;
+    user-select: none;
+}
+
+th{
+    background-color:bisque;
+    color: var(--corSecundaria);
+}
+
+td{
+    background-color: #fdf3e5;
+    color: var(--corSecundaria);
+}
+
+th:hover{
+    background-color: var(--corTercearia);
+    cursor: pointer;
+}
+
+td:active{
+    color: var(--corTercearia);
+    border: solid var(--branco);
+    cursor: pointer;
+}
+
+input{
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.9s;
+    background-color: var(--branco);
+}
+
+input:focus{
+    transition: 0.9s;
+    background-color: black;
+    color:var(--branco);
+    border-radius: 0%;
+    
+
+}
