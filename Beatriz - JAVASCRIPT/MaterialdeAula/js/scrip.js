@@ -10,54 +10,57 @@
 // //confirm = pergunta podendo sair verdadeiro o falso 
 // window.confirm("Deseja baixar arquivo novamente?");
 
-var name = "Uma variavel teste!";
-var ligado = true; 
-var numero = 91; 
-var objeto = [];
-// objeto = tipo de coletanea de dados, onde podemos inserir, remover e pesquisar
-// const = constante, uma variavel que não pode ser sobrescrita 
-const fixo = "Não posso mudar!";
-var temporarioVar = "Fico salvo!";
-let temporaria = "Sou temporário";
+// ////////////////////////////////////////////////////////////////////////////////////////////
 
-// var escopo global e sobrescrevivel
-// let escopo local e sobrescevivel 
-// const escopo global e não sobrescrevivel
+// var name = "Uma variavel teste!";
+// var ligado = true; 
+// var numero = 91; 
+// var objeto = [];
+// // objeto = tipo de coletanea de dados, onde podemos inserir, remover e pesquisar
+// // const = constante, uma variavel que não pode ser sobrescrita 
+// const fixo = "Não posso mudar!";
+// var temporarioVar = "Fico salvo!";
+// let temporaria = "Sou temporário";
 
-function teste() {
-    let temporaria = "Sou temporário";
-    var temporarioVar = "Rodando no function";
+// // var escopo global e sobrescrevivel
+// // let escopo local e sobrescevivel 
+// // const escopo global e não sobrescrevivel
 
-    nome = "Victor";
+// function teste() {
+//     let temporaria = "Sou temporário";
+//     var temporarioVar = "Rodando no function";
 
-    console.log (temporaria);
-    console.log (temporarioVar);
-}
+//     nome = "Victor";
+
+//     console.log (temporaria);
+//     console.log (temporarioVar);
+// }
+
+// ////////////////////////////////////////////////////////////////////////////////////////////
+
+// // output = resultado
+// // input = numero1, numero2
+// // Coleta dois números e soma eles, após isso, imprime na tela o resultado
+
+// function somar() {
+//     window.alert("Seja bem-vindo ao algoritmo de soma!");
+//     let numero1 = Number( window.prompt("Digite o seu primeiro número:"));
+//     let numero2 = Number( window.prompt("Digite o seu segundo número:"));
+//     // parseInt = Números inteiros
+//     // parseFloat = Números reais 
+//     // Number = Números inteiros e reais 
 
 
-// output = resultado
-// input = numero1, numero2
-// Coleta dois números e soma eles, após isso, imprime na tela o resultado
+//     // window.alert(typeof numero1)
 
-function somar() {
-    window.alert("Seja bem-vindo ao algoritmo de soma!");
-    let numero1 = Number( window.prompt("Digite o seu primeiro número:"));
-    let numero2 = Number( window.prompt("Digite o seu segundo número:"));
-    // parseInt = Números inteiros
-    // parseFloat = Números reais 
-    // Number = Números inteiros e reais 
+//     var resultado = numero1+numero2;
 
-
-    // window.alert(typeof numero1)
-
-    var resultado = numero1+numero2;
-
-    // concatenação
-    window.alert("Resultado é de:"+resultado);
-    window.alert(`Resultado é de: ${resultado}`);
-}
+//     // concatenação
+//     window.alert("Resultado é de:"+resultado);
+//     window.alert(`Resultado é de: ${resultado}`);
+// }
  
-somar()
+// somar()
 
-// TYPEOF (no Inspecionar) = verifica o tipo da variavel        
+// // TYPEOF (no Inspecionar) = verifica o tipo da variavel        
 
