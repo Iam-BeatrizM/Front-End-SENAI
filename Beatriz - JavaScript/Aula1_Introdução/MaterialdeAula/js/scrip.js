@@ -42,25 +42,25 @@
 // // input = numero1, numero2
 // // Coleta dois números e soma eles, após isso, imprime na tela o resultado
 
-// function somar() {
-//     window.alert("Seja bem-vindo ao algoritmo de soma!");
-//     let numero1 = Number( window.prompt("Digite o seu primeiro número:"));
-//     let numero2 = Number( window.prompt("Digite o seu segundo número:"));
-//     // parseInt = Números inteiros
-//     // parseFloat = Números reais 
-//     // Number = Números inteiros e reais 
+function somar() {
+    window.alert("Seja bem-vindo ao algoritmo de soma!");
+    let numero1 = Number( window.prompt("Digite o seu primeiro número:"));
+    let numero2 = Number( window.prompt("Digite o seu segundo número:"));
+    // parseInt = Números inteiros
+    // parseFloat = Números reais 
+    // Number = Números inteiros e reais 
 
 
-//     // window.alert(typeof numero1)
+    // window.alert(typeof numero1)
 
-//     var resultado = numero1+numero2;
+    var resultado = numero1+numero2;
 
-//     // concatenação
-//     window.alert("Resultado é de:"+resultado);
-//     window.alert(`Resultado é de: ${resultado}`);
-// }
+    // concatenação
+    window.alert("Resultado é de:"+resultado);
+    window.alert(`Resultado é de: ${resultado}`);
+}
  
-// somar()
+somar()
 
-// // TYPEOF (no Inspecionar) = verifica o tipo da variavel        
+// TYPEOF (no Inspecionar) = verifica o tipo da variavel        
 
