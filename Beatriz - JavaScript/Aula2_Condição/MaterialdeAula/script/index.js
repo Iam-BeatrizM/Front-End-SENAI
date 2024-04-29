@@ -43,6 +43,20 @@ function switchCase(){
 }
 
 function atividade(){
+    alert("Seja bem vindo(a)");
+    let idade = Number(prompt("Insira a sua idade"));
 
+    if (idade >= 0 && idade < 15) {
+        alert("Sua idade é de uma criança!");
+    }
+    else if (idade >= 15 && idade < 30) {
+        alert("Sua idade é de um jovem!");
+    }
+    else if (idade >= 30 && idade < 60) {
+        alert("Sua idade é de um adulto!");
+    }
+    else if (idade >= 60) {
+        alert("Sua idade é de um idoso!");
+    }
 }
 

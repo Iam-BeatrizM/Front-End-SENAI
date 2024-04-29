@@ -20,6 +20,30 @@ header{
     background-color: rgb(6, 101, 6);
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+   
+}
+
+ul{
+    margin-left: 70%;   
+}
+
+#valorTotal{
+    margin-right: 4%;
+}
+
+main{
+    margin: 14px;
+    
+}
+
+img{
+    width: 100px;
+}
+
+#catalogo{
+    display: flex;
+    gap: 40px;
+    margin: 4%;
 }
