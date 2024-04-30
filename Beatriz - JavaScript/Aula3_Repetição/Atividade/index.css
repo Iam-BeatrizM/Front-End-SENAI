@@ -1,0 +1,32 @@
+body{
+    background-color: gray;
+}
+
+header{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    background-color: rgba(75, 75, 75, 0.767);
+    gap: 20px;
+}
+
+#botoes{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: auto;
+    padding: 5%;
+    gap: 15px;
+}
+
+.bt1, .bt2{
+    border-radius: 26px;
+    border: 1px solid rgb(255, 254, 252) ;
+   background-color: rgba(75, 70, 70, 0.205);
+   color: rgba(214, 209, 209, 0.651);
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+}
